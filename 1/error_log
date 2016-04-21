@@ -1,0 +1,6 @@
+[29-Sep-2015 13:19:00 America/New_York] PHP Notice:  Constant DOC_ROOT already defined in /home/modovwns/public_html/ModoCore/Conf/Defines.php on line 28
+[29-Sep-2015 13:19:00 America/New_York] PHP Notice:  Undefined index: authenticate in /home/modovwns/public_html/ModoCore/1/index.php on line 7
+[16-Oct-2015 23:44:12 America/New_York] PHP Notice:  Constant DOC_ROOT already defined in /home/modovwns/public_html/ModoCore/Conf/Defines.php on line 28
+[16-Oct-2015 23:44:12 America/New_York] PHP Notice:  Undefined index: authenticate in /home/modovwns/public_html/ModoCore/1/index.php on line 7
+[06-Dec-2015 14:27:12 America/New_York] PHP Notice:  Constant DOC_ROOT already defined in /home/modovwns/public_html/ModoCore/Conf/Defines.php on line 28
+[06-Dec-2015 14:27:12 America/New_York] PHP Notice:  Undefined index: authenticate in /home/modovwns/public_html/ModoCore/1/index.php on line 7

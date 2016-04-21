@@ -1,0 +1,752 @@
+﻿html, body {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+body
+{
+	font-family:"Verdana";
+}
+
+.bannerLogo
+{
+	width: 200px;
+	margin: 0 auto;
+	padding-top: 35px;
+	padding-bottom: 5px;
+}
+
+
+#banner, #footerContent
+{
+	width: 1200px;
+	color: #004976;
+	font-weight:bold;
+	/*border: 3px solid #f47522;*/
+	margin: 0 auto;
+	font-family:"Verdana";
+	font-size: 14px;
+	height: 40px;
+	line-height: 40px;
+	/*border-top: 1px solid #f47521;*/
+	border-bottom: 1px solid #f47521;
+	border-bottom-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+}
+
+#banner
+{
+	margin-top: -40px;
+}
+
+#footerContent
+{
+	font-size: 10px;
+	position: relative;
+	bottom: 0;
+}
+
+#bannerLeft
+{
+	width: 400px;
+	float:left; 
+}
+
+#bannerLeft, #bannerRight
+{
+	border-top: 1px solid #f47521;
+	border-top-right-radius: 12px;
+	border-top-left-radius: 12px;
+}
+
+#smallBanner
+{
+	width: 300px;
+}
+
+#bannerRight 
+{
+	width: 400px;
+	height: 35px;
+	float: left;
+}
+
+#bannerCenter
+{
+	width: 33%;
+	float: left;
+}
+
+#banner_logIn, #newAccount, #logOut, #account
+{
+	color:: #8a8c8f;
+}
+
+#banner_logIn
+{
+	float: right;
+	margin-right: 10px;
+}
+
+#account, #logOut
+{
+	float: left;
+	width: 80px;
+}
+
+#account
+{
+	margin-left: 10px;
+}
+
+#newAccount, #forumLink
+{
+	float: right;
+	/*margin-right: 10px;*/
+	line-height: 10px;
+	margin-top: 16px;
+}
+
+#newAccount
+{
+	margin-right: 20px;
+}
+
+#forumLink
+{
+	width: 60px;
+}
+
+#thankYou
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: none;
+	font-size: 10px;
+}
+
+#bannerLeft
+{
+	/*border: 1px solid blue;*/
+}
+
+#bannerCenter
+{
+	/*border: 1px solid green;*/
+}
+
+#bannerRight
+{
+	/*border: 1px solid red;*/
+}
+
+#banner_uname, #banner_upass
+{
+	margin-left: 10px;
+}
+
+#account:hover, #newAccount:hover, #banner_upass:hover, #banner_uname:hover, #logOut:hover, #banner_logIn:hover,
+#tabButton:hover, #resetBalance:hover, #update:hover, #resetHistory:hover, #account:hover, #newAccount:hover,
+#getTransactionHistory:hover, #logOut:hover, #accountSavePassword:hover
+{
+	cursor: pointer;
+}
+
+#resetBalance:hover, #update:hover, #resetHistory:hover, #account:hover, #newAccount:hover,
+#getTransactionHistory:hover, #banner_logIn:hover, #logOut:hover,  #downloadSource:hover, 
+#accountSavePassword:hover
+{
+	color: #8a8c8f;
+}
+
+/*
+#resetBalance, #update, #resetHistory, #getTransactionHistory, 
+#newAccountsDiv input[type=button], #submitUpdate, #accountSavePassword
+*/
+.action
+{
+	border-radius: 8px;
+	color: white;
+	background-color: #004976;
+	font-size: 14px;
+	border: none;
+	/*border-bottom: 1px solid #f47521;
+	border-right: 1px solid #f47521;*/
+	height: 40px !important;
+}
+
+#transaction
+{
+	font-family: "verdana";
+	font-size: 12px;
+	color: #044a76;	
+}
+
+#viewPanel
+{
+	width: 1000px;
+}
+
+
+#tabButton:hover
+{
+	background-color: #c7c8c9;
+	border-radius: 8px;
+	/*color: #666;*/
+}
+
+#liveStage
+{
+	width: 1205px;
+	margin: 0 auto;
+	height: 605px;
+}
+
+#statusLog
+{
+	margin-top: 25px;
+	float:left;
+}
+
+#statusLogHeader
+{
+	text-align: center;
+	vertical-align: middle;
+	font-family:"Verdana";
+	color: #004976;
+	font-weight: bold;
+	height: 25px;
+	line-height: 25px;
+	font-size: 12px;
+	border-top: 1px solid #f47521;
+	border-right: 1px solid #f47521;
+	width: 100px;
+	overflow-y:hidden;
+}
+
+/*
+#footerContent
+{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	width: 1200px;
+	border: 3px ridge black;
+	background-color: #666;
+	margin: 0 auto;
+	border-bottom-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+	font-family:"Verdana";
+	color: white;
+	height: 35px;
+	line-height: 35px;
+	
+}
+*/
+
+#statusLogContent
+{
+	width: 300px;
+	border-right: 1px solid #f47521;
+	border-top-right-radius: 12px;
+	border-bottom: 1px solid #f47521;
+	border-bottom-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+	border-top: 0;
+	border-left: 0;
+	height: 356px;
+	font-family:"Verdana";
+	font-size: 12px;
+	color: #8a8c8f;
+	resize: none;
+	background-color: white;
+}
+
+#botContent
+{
+	float: left;
+	/*border: 1px solid red;*/
+	height: 580px;
+	width:  890px;
+}
+
+#marketTable
+{
+	width: 810px;
+	height: 40px;
+	font-size: 10px;
+	/*border: 3px ridge black;*/
+	border-bottom: 4px solid #004976;
+	border-top: 4px solid #004976;
+	border-radius: 12px;
+	margin-left: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	float: left;
+}
+
+#marketTable table
+{
+	float: left;
+	width: 780px;
+	margin-left: 20px;
+}
+
+#marketTable th
+{
+	font-size: 14px;
+	font-weight: bold;
+	width: 90px;
+	color: #004976;
+}
+
+#marketTable td
+{
+	text-align: center;
+	font-size: 11px;
+	color:#8a8c8f;
+}
+
+#activeBots
+{
+	font-size: 12px;
+	margin: 0 auto;
+	width: 240px;
+	height: 25px;
+}
+
+#tabDiv
+{
+	height:25px;
+	position: relative;
+	top: 20px;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+}
+
+.tabButton
+{
+	border-top-right-radius:12px;
+	border-top-left-radius: 12px;
+	font-family:"Verdana";
+	font-size: 12px;
+	width: 120px;
+	color: white;
+	float: left;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	border-top: 1px solid #004976;
+}
+
+.tabButton:active
+{
+	border-right: 1px solid #004976;
+}
+
+#tabular
+{
+	border: 0;
+	float: left;
+	width: 850px;
+	height: 450px;
+	/*border: 1px ridge red;*/
+	margin-top: 20px;
+	margin-left: 5px;
+}
+
+#tabular ul
+{
+	margin-top: 20px;
+	/*border: 3px ridge black;*/
+	background-color: white;
+	border: 0;
+	margin-left: 40px;
+	color: #004976;
+	
+}
+
+#tabular ul li
+{
+	border: 0;
+}
+
+#tabular ul a
+{
+	border-top: 4px solid #004976;
+	/*border-top-right-radius: 12px;*/
+	/*border-top-left-radius: 12px;*/
+	/*
+	border-left: 3px ridge black;
+	border-right: 3px ridge black;
+	border-top: 3px ridge black;
+	color: white;
+	background-color: #666;
+	border-top-right-radius: 12px;
+	border-top-left-radius: 12px;
+	*/
+}
+
+#tabular ul a:hover
+{
+	/*border-right: 1px solid #004976;*/
+}
+
+#tabular ul a::selection
+{
+	border-right: 1px solid #004976;
+	
+	border-top-right-radius: 12px;
+	border-top-left-radius: 12px;
+	/*
+	color: #666;
+	background-color: white;
+	*/
+}
+
+#tabular ul:selection
+{
+	z-index: 1;
+}
+
+.tabContent
+{
+	width: 850px;
+	position: relative;
+	left: 10px;
+	top: -18px;
+	/*border: 3px ridge black;*/
+	height: 430px;
+	border-right: 4px solid #004976;
+	border-bottom: 4px solid #004976;
+	border-radius: 14px;
+	
+}
+
+.botSummaryTable
+{
+	width: 700px;
+	font-size: 10px;
+	/*float:left;
+	/position: relative;*/
+	margin: 0 auto;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+
+.botSummaryTable td
+{
+	width: 70px;
+	color: #8a8c8f;
+}
+
+.botSummaryTable th
+{
+	color: #004976;
+}
+
+.configSummary, .calculatorTable, .historyDiv
+{
+	float: left;
+}
+
+.historyDiv
+{
+	margin-top: 20px;
+}
+
+.history table
+{
+	text-align: center;
+	width: 900px;
+}
+
+.history table th
+{
+	width: 90px;
+}
+
+.historyDivTable
+{
+	margin-top: 5px;
+	font-size: 10px;
+	width: 800px;
+	text-align:center;
+}
+
+.historyDivTable th[class=sectionHeader]
+{
+	font-size: 12px;
+}
+
+.historyDivTable th
+{
+	color: #004976;
+}
+
+.historyDivTable td
+{
+	color: #8a8c8f;
+}
+
+.configSummary, .historyDiv, .calculatorTable
+{
+	font-size: 12px;
+	margin-left: 20px;
+	width: 800px;
+}
+
+.configSummary td, .calculatorTable td
+{
+	font-size: 10px;
+	color: #8a8c8f;
+}
+
+
+.sectionHeader
+{
+	text-align: left;
+	color: #004976;
+}
+
+#spacer
+{
+	height: 20px;
+}
+
+#exchangeTh
+{
+	color: #004976;
+}
+
+/*
+#articleText
+{
+	font-size: 25px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: bold;
+}
+*/
+
+.articleText
+{
+	font-family: " Verdana";
+	font-weight:bold;
+	font-size: 18px;
+	margin-left: 15px;
+}
+
+footer 
+{
+	color: #8a8c8f;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	top: 40px;
+}
+
+#flyer
+{
+	/*width: 860px;*/
+	height: 530px;
+	overflow-y: auto;
+}
+
+#goLive
+{
+	margin: 0 auto;
+	text-align: center;
+	width: 800px;
+	font-face: "Verdana";
+	font-size: 28px;
+	font-weight: bold;
+	color: green;
+}
+
+
+#calculatorLabel
+{
+	margin-left: 10px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #044a76;
+}
+
+#calculatorTextBody
+{
+	font-weight: normal;
+	margin-left: 12px;
+	font-size: 10px;
+}
+
+/* MODAL STYLING*/
+#newAccountsDiv, #accountUpdateDiv
+{
+	font-family: "verdana";
+	font-size: 14px;
+	margin-left: 5px;
+	margin-right: 5px;
+	display:none;
+	line-height: 18px;
+	/*float: right;*/
+}
+
+#newAccountsDiv input[type=button]:hover
+{
+	background-color: #CDCDCD;
+}
+
+#accountMessage
+{
+	margin-left: 5px;
+	font-family: "verdana";
+	font-size: 18px;
+}
+
+#downloadSource, #forumLink
+{
+	font-family: "verdana";
+	font-size: 14px;
+	height: 16px;
+	margin-right:  10px;
+}
+
+#downloadSource
+{
+	width: 160px;
+}
+
+#newAccountsDiv input[type=text]
+{
+	width: 100%;
+	color: #004976;
+}
+
+
+#newAccountsDiv input[type=button], #submitUpdate
+{
+   /*
+	margin-top: 6px;
+	border: none;
+	border-left: 1px solid #004976;
+	border-right: 1px solid #004976;
+	color: #004976;
+	background-color: white;
+	width: 180px;
+	position: relative;
+	left: 50%;
+	margin-left: -90px;
+	margin-top: 20px;
+	*/
+}
+
+.ui-dialog
+{
+	border-bottom-color: #004976;
+	border-bottom-width: 12px;
+}
+
+#newAccountsDiv input[type=button]:hover, #downloadSource:hover, #submitUpdate:hover, #forumLink:hover
+{
+	cursor: pointer;
+	background-color: #CCC;
+}
+
+#accountUpdateDiv table tr th
+{
+	text-align: right;
+	
+}
+
+.ui-dialog-titlebar
+{
+	color: white;
+	background-color: #004976;
+}
+
+
+.ui-dialog-titlebar-close
+{
+	line-height: 12px;
+	background-color: #044A76 !important;
+	border: 1px solid #044A76 !important;
+	color: white !important;
+}
+#transaction th
+{
+	width: 150px;
+	background-color: #044A76;
+	color: white;
+}
+
+#transaction td
+{
+	font-size: 12px;
+	text-align: center;
+}
+
+#accountNav ul li
+{
+  cursor: pointer;	
+}
+
+#accountNav
+{
+	width: 260px;
+	height: 400px;
+	float: left
+}
+
+#accountConfigDivs
+{
+	width: 480px;
+	height: 400px;
+	float: left;
+}
+
+.accountAction table
+{
+	margin: 0 auto;
+	margin-top: 25%;
+}
+
+#accountManagement
+{
+	margin-top: 10px;
+}
+
+.accountLabel
+{
+	width: 180px;
+	float: left;
+}
+
+.accountLabel input
+{
+	width: 300px;
+	float: left;
+}
+
+.accountAction, #accountUpdateDiv
+{
+	border:none;
+}
+
+.accountAction
+{
+	display: none;
+}
+
+.statusLog
+{
+	float: left;
+	width: 310px;
+}
+
+#bots
+{
+  border: 1px solid red;
+}
